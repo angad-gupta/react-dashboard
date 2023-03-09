@@ -1,0 +1,12 @@
+.NewsItem img {
+    width: 25%;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .NewsItem img {
+        width: 100% !important;
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+}

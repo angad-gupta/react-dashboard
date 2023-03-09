@@ -1,0 +1,24 @@
+.login {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+    width: 400px;
+}
+.login__textBox {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login div {
+    margin-top: 7px;
+}

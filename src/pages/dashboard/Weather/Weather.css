@@ -1,0 +1,60 @@
+.weather-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.weather-content {
+    background: url("../../../assets/images/sunrise.jpg") no-repeat center center/cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #0006;
+}
+
+.weather-content .search {
+    text-align: center;
+    padding: 2rem 0 0 0;
+}
+
+.weather-content input {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+    color: #f8f8f8;
+}
+
+::placeholder {
+    color: #f8f8f8;
+}
+
+.weather-content .top {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.weather-content .description {
+    position: relative;
+    right: -90%;
+    transform-origin: 0 0;
+    transform: rotate(269deg);
+}
+
+.weather-content .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 10rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+    font-weight: 700;
+}
+  
